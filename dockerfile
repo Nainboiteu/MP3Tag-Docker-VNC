@@ -3,7 +3,7 @@ RUN apt update
 RUN apt install -y git wine
 RUN mkdir /data
 RUN git clone https://github.com/Nainboiteu/MP3Tag-Docker-VNC /app
-RUN CHMOD 777 -R /app
+RUN chmod 777 -R /app
 RUN mkdir -p /root/defaults
 RUN mv /app/bin/autostart root/defaults/autostart
 #RUN echo "wine /app/bin/mp3tag-3.21/Mp3tag.exe" > /usr/local/sbin/startMP3tag
