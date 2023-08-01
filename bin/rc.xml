@@ -653,7 +653,7 @@
 </menu>
 
 <applications>
-  <application class="mp3tag.exe">
+  <application name="mp3tag.exe">
     <maximized>yes</maximized>
   </application>
 <!--
