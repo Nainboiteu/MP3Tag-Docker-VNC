@@ -1,2 +1,3 @@
+sleep 30
 export DISPLAY=:1
 wine /app/bin/mp3tag-3.21/Mp3tag.exe
